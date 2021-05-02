@@ -9,7 +9,7 @@ const app = express();
 
 // add routes
 app.get('/', (req, res)=> {
-    res.status(200).send('Hello from Server home route');
+    res.status(200).send('Hello in the first lab :)');
 });
 
 app.get('/info', (req, res)=> {
